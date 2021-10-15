@@ -1,0 +1,51 @@
+body{
+    text-align:center;
+    width:100%;
+    height: 100%;
+    background-image: url("https://images5.alphacoders.com/421/thumb-1920-421124.jpg");
+    background-position:center;
+  }
+
+  .AddBooks{
+        margin-top:2%;
+        margin-left:30%;
+        margin-right:30%;
+        margin-bottom: 2%;
+        background-color: rgb(7, 5, 36);
+        padding-top:0.03%;
+        padding-bottom:0.03%;
+        color:whitesmoke;
+  }
+
+  .AddBooks span{
+      font-size:50px;
+      text-decoration: underline;
+  }
+
+  .Form{
+      color:whitesmoke;
+      font-size:x-large;
+      font-weight:bolder;
+  }
+
+  form input,select{
+      margin-bottom: 30px;
+      padding-bottom:5px;
+      padding-top:5px;
+      padding-right: 20px;
+      padding-left: 20px;
+      border-width: 3px;
+      border-color: rgb(12, 178, 255);
+      text-align: center;
+  }
+
+  .Submit{
+      font-size:x-large;
+      padding:5px;
+  }
+
+.Submit:hover{
+    background-color:rgb(7, 2, 34);
+    color:whitesmoke;
+}
+

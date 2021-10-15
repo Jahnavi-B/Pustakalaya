@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="Admin.css">
+    <meta charset="utf-8">
+    <title>1HK18CS062 New Admin</title>
+  </head>
+  <body>
+    <div>
+      <div class="AddBooks">
+        <h1><span>ADD AN ADMIN:</span></h1>
+        <form action = "InsertAdmin.php" method = "GET">
+          
+          <div class="container">
+          <label for="uname"><b>Username: </b></label>
+          <input type="text" placeholder="Enter Username" id="User" name="User"  required> <br>
+
+          <label for="psw"><b>Password: </b></label>
+          <input type="password" placeholder="Enter Password" id="pass" name="pass" required> <br>
+
+          <input type="submit" id="submit" name="submit"></input> <br>
+          <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me </label> <br>
+          </div> <br>
+
+          <div class="container" style="background-color:#f1f1f1">
+          <button type="button" href="index.html" class="cancelbtn">Cancel</button>
+          </div>
+      </form>
+      </div>      
+    </div>
+  </body>

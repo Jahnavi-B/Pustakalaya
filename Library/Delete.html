@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Search.css">
+        <meta charset="utf-8">
+        <title>1HK18CS062 Delete A Book</title>
+    </head>
+    <body>
+        <div>
+            <div class="SearchBooks">
+                <h1><span>DELETE A BOOK:</span></h1>
+                <form action="Delete.php">
+                  <label class="Form">
+                    <label for="Bname">Book name:</label><br>
+                    <input type="text" id="Bname" name="Bname"><br>
+                    <label for="Authname">Author name:</label><br>
+                    <input type="text" id="Authname" name="Authname"><br>
+                    <label>Select Category:</label><br>
+                      <select id = "CategoryList">
+                        <option value = "0">Choose:</option>
+                        <option value = "1">TextBooks</option>
+                        <option value = "2">Workbooks</option>
+                        <option value = "3">Guides</option>
+                        <option value = "4">Novels/Miscellaneous Books</option>
+                      </select>
+                      <br>
+                    <input type="submit" value="Submit" class="Submit">
+                  </label>
+                </form>
+              </div>   
+        </div>
+    </body>
