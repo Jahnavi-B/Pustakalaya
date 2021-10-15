@@ -1,0 +1,86 @@
+body{
+    text-align:center;
+    width:100%;
+    height: 100%;
+    
+  }
+  
+  
+  .Homepage{
+    float:right;
+    width:50%;
+    height:100%;
+  }
+  
+  .Side{
+    position:relative;
+    height:100%;
+  }
+  
+  .Left,.Right{
+  position:absolute;
+  }
+  
+  .Left{
+    background-image: url("https://www.wallpaperflare.com/static/449/96/886/butterfly-books-table-life-is-strange-wallpaper-preview.jpg");
+    background-size: cover;
+    height:100%;
+    width:60%;
+    position:fixed;
+    top:0px;
+    left:0px;
+  }
+  
+  .Left h1,h2{
+    color:black;
+    font-size:50px;
+    font-family: 'Brush Script MT', cursive;
+    line-height: 10px;
+    margin-top: 50px;
+    -webkit-text-stroke-width:1px;
+    -webkit-text-stroke-color:white;
+  }
+  
+  .Left span{
+    font-family: Georgia, Verdana, sans-serif;
+  }
+  
+  .Right{
+    color:black;
+    margin-left: 30%;
+    margin-top: 10%;
+    padding: 10%;
+    background-image:url("https://images.unsplash.com/photo-1541963463532-d68292c34b19?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80");
+    background-size:cover;
+    border: 3px solid black;
+  
+  }
+  
+  .Right img{
+    height:20%;
+    width: 10%;
+    object-fit: cover;
+    border: 1px solid black;
+    position:fixed;
+    top:20px;
+    right:10px;
+  }
+  
+  .Right p{
+    font-weight: bolder;
+  }
+  
+  .btn{
+    padding:12px 24px;
+    color:white;
+    display:inline-block;
+    border-radius:4px;
+    background-color: #001a33;
+    font-size:20px;
+  }
+  
+  .btn:hover{
+    background-color:turquoise;
+    border-color: midnightblue ;
+    border-width: 20px;
+  }
